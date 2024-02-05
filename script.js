@@ -6,8 +6,9 @@ function makeid(l) {
 		let index = Math.floor(Marh.random()*(tmpString.length-1));
 		string+=tmpString[index];
 	}
-	retur string;
+	return string;
 }
+
 
 // Do not change the code below.
 const l = prompt("Enter a number.");
